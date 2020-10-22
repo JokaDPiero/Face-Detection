@@ -27,7 +27,7 @@ while True:
 	# Plot rectangle around all the faces
 	for (x,y,w,h) in faces:
 		cv2.rectangle(frame,(x,y),(x+w,y+h),(0,0,255),2)
-    #color (0,0,0)-black;(255,0,0)-blue;(0,255,0-)green,red above;2 is thickness of rectangle
+    #color of rectangle (0,0,0)-black; (255,0,0)-blue; (0,255,0)-green, red above;2 is thickness of rectangle
 
 
 	# Display the frame
